@@ -1,0 +1,4 @@
+基于android移动平台的Ascii艺术图生成器
+
+本技术是基于 wickdynex 开源项目ASCII generator更改而来,目前只有img2colorimg的功能,后续会更新视频等更有意思的功能!
+转载请注明出处!

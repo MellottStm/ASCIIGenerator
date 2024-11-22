@@ -31,7 +31,7 @@ public class MainAct extends BaseAct {
     protected void init() {
         super.init();
         binding = DataBindingUtil.setContentView(this, R.layout.main_act);
-        binding.edt.setText("何同学是抄袭狗");
+        binding.edt.setText("转载请注明出处");
         binding.tip.setText("请选择图片");
         binding.fileBtn.setOnClickListener(new View.OnClickListener() {
             @Override

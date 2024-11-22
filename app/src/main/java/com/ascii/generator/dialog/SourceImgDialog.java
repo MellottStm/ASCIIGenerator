@@ -91,6 +91,7 @@ public class SourceImgDialog extends BaseDialog{
                     outputStream.close();
                     ResultImgDialog resultImgDialog = new ResultImgDialog(context);
                     resultImgDialog.show();
+                    dismiss();
                 }catch (Exception e){
                     e.printStackTrace();
                 }
